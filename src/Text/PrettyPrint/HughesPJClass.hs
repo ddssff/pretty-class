@@ -54,7 +54,7 @@ instance Pretty Bool where pPrint = text . show
 instance Pretty Ordering where pPrint = text . show
 instance Pretty Char where
     pPrint = char
-    pPrintList _ = text . show
+    pPrintList _ = text
 instance (Pretty a) => Pretty (Maybe a) where
     pPrintPrec l p Nothing = text "Nothing"
     pPrintPrec l p (Just x) = prettyParen (p > appPrec) $ text "Just" <+> pPrintPrec l (appPrec+1) x

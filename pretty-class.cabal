@@ -1,8 +1,8 @@
-Name:		prettyclass
+Name:		pretty-class
 Version:	1.0.0.0
 License:	BSD3
 Author:		Lennart Augustsson
-Maintainer:	Lennart Augustsson
+Maintainer:	David Fox
 Category:	Text
 Synopsis:	Pretty printing class similar to Show.
 Stability:      experimental
